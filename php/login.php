@@ -1,12 +1,17 @@
 <?php
-// Retrieve POST data
-$username = $_POST['username'] ?? '';
-$password = $_POST['password'] ?? '';
-
-// Perform validation (you should perform more robust validation and authentication in a real-world scenario)
-if ($username === 'example_username' && $password === 'example_password') {
-    echo 'Login successful';
-} else {
-    echo 'Invalid username or password';
+$username = $_POST['username'];
+$password = $_POST['password'];
+$con=mysqli_connect("localhost","root","","login");
+$sql="SELECT * from users WHERE  name='$username' AND password='$password'";
+$result=mysqli_query($con,$sql);
+$resultcheck=mysqli_num_rows($result);
+if($result>0)
+{
+    header("Location: profile.html");
+    exit;
+}
+else
+{
+    echo "User name or password is Incorrect";
 }
 ?>
