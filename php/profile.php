@@ -1,5 +1,5 @@
 <?php
-use MongoDB\Client;
+use MongoDB\Client; 
 $conn = new MongoDB\Client("mongodb://localhost:27017");
 $db = $conn->mydatabase;
 $collection = $db->users;

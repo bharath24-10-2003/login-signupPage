@@ -1,0 +1,83 @@
+h1 {
+    color: #333; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
+    font-weight: bold; /* Font weight */
+    margin-bottom: 20px; /* Bottom margin */
+    font-size: 36px; /* Font size */
+}
+
+/* Styling for h2 tag */
+h2 {
+    color: #444; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
+    font-weight: bold; /* Font weight */
+    margin-bottom: 15px; /* Bottom margin */
+    font-size: 30px; /* Font size */
+}
+
+/* Styling for h3 tag */
+h3 {
+    color: #555; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
+    font-weight: bold; /* Font weight */
+    margin-bottom: 10px; /* Bottom margin */
+    font-size: 24px; /* Font size */
+}
+
+/* Styling for h4 tag */
+h4 {
+    color: #666; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
+    font-weight: bold; /* Font weight */
+    margin-bottom: 5px; /* Bottom margin */
+    font-size: 20px; /* Font size */
+}
+
+/* Styling for h5 tag */
+h5 {
+    color: #777; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
+    font-weight: bold; /* Font weight */
+    margin-bottom: 5px; /* Bottom margin */
+    font-size: 16px; /* Font size */
+}
+
+/* Styling for h6 tag */
+h6 {
+    color: #888; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
+    font-weight: bold; /* Font weight */
+    margin-bottom: 5px; /* Bottom margin */
+    font-size: 14px; /* Font size */
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 10px 4px 6px rgb(13, 55, 18);
+}
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.2);
+}
+button:active {
+    background-color: #453e8e;
+    transform: scale(1.2);
+     /* Even darker green */
+    transform: translateY(2px); /* Move button down slightly when clicked */
+    box-shadow: none; /* Remove box shadow when clicked */
+}
+h1:hover
+{
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+}
